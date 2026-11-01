@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Lint markdown
-        uses: DavidAnson/markdownlint-cli2-action@6bf21b07787794f89a243495939cd651942aeabe  # v24
+        uses: DavidAnson/markdownlint-cli2-action@696eb3f2509270d7b882d2aa68347bc676e7af34  # v24
         with:
           globs: "**/*.md"
           config: .github/.markdownlint.jsonc
